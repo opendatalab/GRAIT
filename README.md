@@ -14,10 +14,11 @@ Refusal-Aware Instruction Tuning (RAIT) enhances Large Language Models (LLMs) by
 
 ### Preparing enviroment and data
 
-Our code depends on LESS, xtuner and opencompass, so we need to set up the corresponding environment first.
+Our code depends on [LESS](https://github.com/princeton-nlp/LESS), xtuner and opencompass, so we need to set up the corresponding environment first.
 
 ```bash
 ## LESS
+git clone https://github.com/princeton-nlp/LESS.git
 cd LESS
 conda create --name less python=3.11
 conda activate less
